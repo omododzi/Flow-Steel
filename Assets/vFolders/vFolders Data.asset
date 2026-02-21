@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb9c12a8c6c949f7af83a3d238359d0, type: 3}
+  m_Name: vFolders Data
+  m_EditorClassIdentifier: 
+  folderDatas_byGuid:
+    keys:
+    - bb785dca32bc867448ff3f2acda19c06
+    - e6dd66cc8271ba54f9053f663202569e
+    - 030503b2b2594634a9d1cdfbdce7c3a2
+    - 15531419f08e51947a999f71d4f2d713
+    - 91de2ac285cc0dc48abf385c405a1573
+    - e7c24541c9cd73d4da851cc6ac8fd033
+    - c7f52ef38cede9c418ab957695a47ce4
+    - 6b713aaad7f640d4aa259d2a9d7e767a
+    - cbab2f4bdf30f444b8c1a5a940d49c1a
+    - 3497d1e2be357c7448109484209952a8
+    - 5227c93b46f55324591644ef141bb8e5
+    - 1c2dd8af4501f674f83b3739643df543
+    - 20506c123627e314ebb03ee7a465ff5a
+    - 0c67713126d4c9d41b3c03bc23f9759c
+    - d5b1a34d7e5c78c4ebe9024dcd11c2fd
+    - de68337113ca8aa4080f25e8076ea264
+    - e766dfad7317b9f46ac574634428d3a2
+    - 0263a3e0fe9ad56408cb2e11b26a191d
+    - af4869d28ec152e41b5cf051dd09eead
+    - ef3a0f539ce5a8e4c8d30c5dd8f83eb1
+    - 12b606abf2ca51e4c9987727eec114d5
+    - d82a40bbeb5120b46ad5e5249d79a835
+    - 4ddba9d5ae5e54540bb5ba0fd88c80d6
+    - f3b87a002ea6ee6439efcc0bd65e95ad
+    - 531060859d8a0a746acd00a01aef886f
+    - 357ca41e7c3121943bb4cb61c5fbabb1
+    - b8b21dd4c9b132e47b427317dcfc8fb2
+    - 0ef02b4a29b78944795d1ba7a1e3d4ce
+    - 91ec4699bd220d049860ba3591bd292c
+    - 5392a933ef18d4941a9dff8188e88742
+    - fe5c42409685dd547b6b93541ca93284
+    values:
+    - colorIndex: 7
+      iconNameOrGuid: Settings Icon
+    - colorIndex: 8
+      iconNameOrGuid: Mesh Icon
+    - colorIndex: 9
+      iconNameOrGuid: Material Icon
+    - colorIndex: 10
+      iconNameOrGuid: ScriptableObject Icon
+    - colorIndex: 1
+      iconNameOrGuid: Shader Icon
+    - colorIndex: 2
+      iconNameOrGuid: Texture Icon
+    - colorIndex: 6
+      iconNameOrGuid: AnimatorController Icon
+    - colorIndex: 6
+      iconNameOrGuid: AnimationClip Icon
+    - colorIndex: 2
+      iconNameOrGuid: 
+    - colorIndex: 2
+      iconNameOrGuid: 
+    - colorIndex: 1
+      iconNameOrGuid: 
+    - colorIndex: 10
+      iconNameOrGuid: 
+    - colorIndex: 10
+      iconNameOrGuid: 
+    - colorIndex: 9
+      iconNameOrGuid: 
+    - colorIndex: 9
+      iconNameOrGuid: 
+    - colorIndex: 8
+      iconNameOrGuid: 
+    - colorIndex: 8
+      iconNameOrGuid: 
+    - colorIndex: 4
+      iconNameOrGuid: SceneAsset Icon
+    - colorIndex: 8
+      iconNameOrGuid: 
+    - colorIndex: 9
+      iconNameOrGuid: 
+    - colorIndex: 10
+      iconNameOrGuid: 
+    - colorIndex: 1
+      iconNameOrGuid: 
+    - colorIndex: 2
+      iconNameOrGuid: 
+    - colorIndex: 10
+      iconNameOrGuid: 
+    - colorIndex: 10
+      iconNameOrGuid: 
+    - colorIndex: 10
+      iconNameOrGuid: 
+    - colorIndex: 8
+      iconNameOrGuid: 
+    - colorIndex: 9
+      iconNameOrGuid: 
+    - colorIndex: 10
+      iconNameOrGuid: 
+    - colorIndex: 2
+      iconNameOrGuid: 
+    - colorIndex: 1
+      iconNameOrGuid: 
