@@ -21,6 +21,6 @@ public class ChooseCharacterButtons : MonoBehaviour,IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         backgroundobj.GetComponent<UnityEngine.UI.Image>().sprite = bacground;
-        Debug.Log("sadsd");
+        Debug.Log("Character rechosen");
     }
 }

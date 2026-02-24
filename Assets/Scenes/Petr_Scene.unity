@@ -131,9 +131,10 @@ GameObject:
   - component: {fileID: 315095120}
   - component: {fileID: 315095119}
   - component: {fileID: 315095118}
+  - component: {fileID: 315095122}
   m_Layer: 0
   m_Name: PlayerCamera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -250,12 +251,29 @@ Transform:
   m_GameObject: {fileID: 315095117}
   serializedVersion: 2
   m_LocalRotation: {x: 0.45960534, y: -0, z: -0, w: 0.8881233}
-  m_LocalPosition: {x: 0.18999958, y: 7.53, z: -4.4100003}
+  m_LocalPosition: {x: -6.55, y: 7.4, z: -9.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 383076245}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 54.723, y: 0, z: 0}
+--- !u!114 &315095122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315095117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7b355e791e90642b755546dbb42a9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensitivity: 1.5
+  speedFollowing: 5
+  offsetTarget: 5
+  Yoffset: 3
+  character: {fileID: 383076245}
 --- !u!1 &383076240
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,6 +287,8 @@ GameObject:
   - component: {fileID: 383076243}
   - component: {fileID: 383076242}
   - component: {fileID: 383076241}
+  - component: {fileID: 383076247}
+  - component: {fileID: 383076246}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -283,7 +303,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 383076240}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d7c810f3ea014cc0a208cd1b2d5ca96, type: 3}
   m_Name: 
@@ -375,10 +395,53 @@ Transform:
   m_LocalPosition: {x: -6.74, y: -0.13, z: -4.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 315095121}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &383076246
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383076240}
+  serializedVersion: 4
+  m_Mass: 10
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!114 &383076247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383076240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 260ab83e5c2eaa34cb7e9610dc3fcb50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 10
+  runSpeed: 15
+  jumpForce: 10
+  canMove: 1
+  canJump: 1
 --- !u!1 &1722286123
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,7 +454,7 @@ GameObject:
   - component: {fileID: 1722286126}
   - component: {fileID: 1722286125}
   - component: {fileID: 1722286124}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plane (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -614,5 +677,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1835521358}
+  - {fileID: 315095121}
   - {fileID: 383076245}
   - {fileID: 1722286127}
